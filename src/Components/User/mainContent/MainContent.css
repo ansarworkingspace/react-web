@@ -92,7 +92,10 @@
 .carosel {
     width: 97%;
     height: 22rem;
-    background-color: rgb(212, 125, 252);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
 }
 
 .bottom {
@@ -128,3 +131,47 @@
     font-weight: 600;
     background: linear-gradient(to right, rgb(50 172 146), #9ebcc0, rgb(50, 207, 173));
 }
+
+.caroselBox{
+    width: 24%;
+    height: 19rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.caroselBox h3{
+    font-family: 'Poppins';
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #10858b;
+}
+
+
+.caroselImg img{
+    
+        width: 14.4rem;
+        height: 12rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    
+}
+
+
+
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width:5rem ;
+    color: #279acd; /* Your desired color */
+  }
+  
+  .arrow:hover {
+    color: #10858b; /* Your desired hover color */
+  }
+
+  .arrow svg{
+    font-size: 3rem;
+  }
