@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+
 import './Header.css';
 import logoImage from '/real-estate-house.png'; // Import the image file
 

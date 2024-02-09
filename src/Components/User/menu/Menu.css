@@ -1,0 +1,48 @@
+.menuMainDiv{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 36%;
+    position: relative;
+    left: 27rem;
+    gap: 2rem;
+}
+.menu h4{
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+
+.options {
+    width: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    position: relative;
+    left: 43rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.options h4{
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+
+.logout{
+    
+   width: 6rem;
+   display: flex;
+   align-items: center;
+   position: relative;
+   left: 3rem;
+   padding-left: 1rem;
+   cursor: pointer;
+}

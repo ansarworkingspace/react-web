@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Menu from '../../Components/User/menu/Menu';
+import MainContent from '../../Components/User/mainContent/MainContent';
 
 const HomeScreen = () => {
   const navigate = useNavigate();
@@ -16,8 +18,8 @@ const HomeScreen = () => {
 
   return (
     <>
-      <h1>Welcome to the Home Screen!</h1>
-     
+      <Menu/>
+      <MainContent/>
     </>
   );
 };
