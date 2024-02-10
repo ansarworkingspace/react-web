@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import './HamburgerMenu.css'; // You can create this CSS file for styling
+import './HamburgerMenu.css'; 
 import { useNavigate } from 'react-router-dom';
 
 

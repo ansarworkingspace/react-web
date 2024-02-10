@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Menu from '../../Components/User/menu/Menu';
 import MainContent from '../../Components/User/mainContent/MainContent';
-import HambgerMenu from '../../Components/User/hambgerMenu/HambgerMenu';
+import HambgerMenu from '../../Components/User/hamburgerMenu/HamburgerMenu';
 
 const HomeScreen = () => {
   const navigate = useNavigate();
@@ -27,46 +27,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-// import React, { useEffect, useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
-// import Menu from '../../Components/User/menu/Menu';
-// import MainContent from '../../Components/User/mainContent/MainContent';
-// import HamburgerMenu from '../../Components/User/hambgerMenu/HambgerMenu'; // Corrected the import
-
-// const HomeScreen = () => {
-//   const navigate = useNavigate();
-//   const [isMobile, setIsMobile] = useState(false);
-
-//   useEffect(() => {
-//     const userData = localStorage.getItem('userInfo');
-
-//     if (!userData) {
-//       navigate('/login');
-//     }
-
-//     const handleResize = () => {
-//       setIsMobile(window.innerWidth <= 768);
-//     };
-
-//     // Initial check on component mount
-//     handleResize();
-
-//     // Listen for window resize events
-//     window.addEventListener('resize', handleResize);
-
-//     // Cleanup the event listener on component unmount
-//     return () => {
-//       window.removeEventListener('resize', handleResize);
-//     };
-//   }, [navigate]);
-
-//   return (
-//     <>
-//       {isMobile ? <HamburgerMenu /> : <Menu />}
-//       <MainContent />
-//     </>
-//   );
-// };
-
-// export default HomeScreen;

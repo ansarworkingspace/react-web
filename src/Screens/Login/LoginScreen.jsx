@@ -8,10 +8,10 @@ import { useNavigate } from 'react-router-dom';
 function LoginScreen() {
 
 
-  // this is only for the educational purpose | in real project we use any secure database
+  // This is only for educational purposes. In a real project, we would use a secure database.
   const admin = {
-    name: 'John Doe',
-    email: 'john@example.com',
+    name: 'Ansar',
+    email: 'a@gmail.com',
     password: '123', // Plain text password
   };
 
@@ -94,6 +94,7 @@ function LoginScreen() {
           />
           <button className='formBtn' type="submit">Login</button>
         </form>
+        <h3 className='emailPass'>please use this : email - a@gmail.com | password - 123 </h3>
       </div>
       <div className="loginPageImage">
         <a href="https://www.freepik.com/free-vector/privacy-policy-concept-illustration_20547283.htm#query=login&position=1&from_view=keyword&track=sph&uuid=ea755794-9959-44e4-981c-4f88685dd10e" target="_blank" rel="noopener noreferrer">
