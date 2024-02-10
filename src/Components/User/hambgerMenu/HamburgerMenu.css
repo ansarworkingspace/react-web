@@ -1,0 +1,70 @@
+
+@media screen and (max-width:768px){
+    
+.hamburger-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    border: none;
+    position: relative;
+    right: 2rem;
+    top: 1rem;
+  }
+  
+  .bar {
+    height: 3px;
+    width: 20px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.3s;
+  }
+  
+  .open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-4px, 4px);
+  }
+  
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-4px, -4px);
+  }
+  
+  .menu {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    z-index: 100;
+    top: 4rem;
+    left: 18rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    transition: 0.3s;
+    font-family: 'Poppins';
+    font-size: 11px;
+  }
+  
+  .menu a:hover {
+    background: #eee;
+  }
+  
+
+}
+  

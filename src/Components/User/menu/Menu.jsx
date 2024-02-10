@@ -36,7 +36,7 @@ const Menu = () => {
         <h4>Transaction</h4>
         <h4>Journal</h4>
       </div>
-      <div className='options'>
+      <div className='profile'>
         <PersonIcon />
         <h4>{name}</h4>
       </div>
