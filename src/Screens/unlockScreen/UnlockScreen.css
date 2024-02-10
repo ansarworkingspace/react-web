@@ -120,6 +120,10 @@
     color: #767272;
 }
 
+.css-1u9des2-indicatorSeparator{
+display: none;
+}
+
 
 @media screen and (max-width:768px) {
     .unLockDiv {
@@ -224,7 +228,7 @@
 
 
 .unloclRight img {
-    width: 24rem;
+    width: 22rem;
     position: relative;
     top: 2rem;
 }
@@ -237,5 +241,14 @@
     font-size: 9px;
     color: #767272;
 }
+
+
+.css-1dimb5e-singleValue {
+
+    font-size: 9px;
+
+}
+
+
 
 }

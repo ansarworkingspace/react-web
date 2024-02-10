@@ -228,7 +228,7 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        margin-left: 3.7rem;
+        margin-left: 41px;
         width: 17rem;
     }
     
@@ -250,7 +250,7 @@
     }
     
     .right {
-        width: 24rem;
+        width: 22rem;
         height: 38rem;
         display: flex;
         flex-direction: column;
