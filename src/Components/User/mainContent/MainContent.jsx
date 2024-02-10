@@ -4,8 +4,13 @@ import './MainContent.css';
 import CommunityLogo from '/membership-preview.png';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { useNavigate } from 'react-router-dom';
 
 const MainContent = () => {
+
+
+const navigate = useNavigate()
+
     const initialIndex = 0;
   const caroselBoxData = [
     { image: '/img1.jpg', nameH3: 'Lower Interest Rates' },
@@ -28,6 +33,13 @@ const MainContent = () => {
     caroselBoxData[currentIndex],
     caroselBoxData[(currentIndex + 1) % caroselBoxData.length],
   ];
+
+
+  const unlock =()=>{
+    navigate('/unlock')
+  }
+
+
 
   return (
     <div className='mainContentBody'>
@@ -64,7 +76,7 @@ const MainContent = () => {
           </button>
         </div>
         <div className="bottom">
-          <button className='btnUnlock'>UNLOCK NOW</button>
+          <button className='btnUnlock' onClick={unlock}>UNLOCK NOW</button>
           <button className='btnDetails'>DETAILS</button>
         </div>
       </div>

@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeScreen from './Screens/home/HomeScreen.jsx';
 import LoginScreen from './Screens/Login/LoginScreen.jsx';
 import PrivateRoute from './Components/User/privetRoute/UserPrivetRouter.jsx';
+import UnlockScreen from './Screens/unlockScreen/UnlockScreen.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
      
       <Route path='/' element={<PrivateRoute />}>
         <Route index={true} element={<HomeScreen />} />
+        <Route path='/unlock' element={<UnlockScreen/>}/>
       </Route>
 
   
