@@ -145,6 +145,12 @@ const customStyles = {
     height: '3rem',
     borderRadius: '3rem',
     border: '2px solid #d6d6d6',
+
+    '@media (max-width: 768px)': {
+      width: '15rem',
+     
+    },
+
   }),
 };
 
@@ -160,7 +166,7 @@ const UnlockScreen = () => {
       <div className="unlockLeft">
         <form className="unlockForm">
           <h2>Unlock Exclusive Benefits</h2>
-          <label htmlFor="firstInput">Phone Number</label>
+          <h4 className='codeHead'>Enter Country Code and Number</h4>
           <div className="twoHorizontalInput">
             <Select
               id="countryCode"
@@ -171,15 +177,15 @@ const UnlockScreen = () => {
               placeholder=""
             />
 
-            <input type="text" id="secondInput" />
+            <input type="text" id="secondInput" placeholder='Enter your number' />
           </div>
 
           <div className="twoVerticalInputs">
             <label htmlFor="thirdInput">Name </label>
-            <input type="text" id="thirdInput" />
+            <input type="text" id="thirdInput" placeholder='Enter your Name' />
 
             <label htmlFor="fourthInput">Email (<span>Option</span>)</label>
-            <input type="text" id="fourthInput" />
+            <input type="text" id="fourthInput" placeholder='Enter your Email' />
           </div>
 
           <button>Continue</button>

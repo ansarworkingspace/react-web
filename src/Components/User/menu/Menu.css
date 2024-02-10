@@ -46,3 +46,79 @@
    padding-left: 1rem;
    cursor: pointer;
 }
+
+
+@media screen and (max-width:768px) {
+
+    .menuMainDiv{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        margin-top: 0.5rem 
+        rem
+        ;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 74%;
+        position: relative;
+        left: 2px;
+        gap: 26px;
+        height: 2rem;
+        padding-top: 11px;
+    }
+    .menu h4{
+        font-size: 7px;
+        font-family: 'Poppins';
+    }
+    
+    
+    .options {
+        width: 8%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        position: relative;
+        left: 2px;
+        cursor: pointer;
+        padding-top: 0;
+        bottom: 2px;
+    }
+    
+    .options svg{
+        width: 13px;
+    }
+    
+
+
+    .options h4{
+        font-family: 'Poppins';
+        font-size: 6px;
+    }
+    
+    
+    .logout{
+        
+        width: 3rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 0rem;
+        padding-left: 1rem;
+        cursor: pointer;
+    }
+
+    .logout svg{
+
+        margin-right: 0.5rem;
+        width: 17px;
+    }
+
+
+
+
+}

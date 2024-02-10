@@ -75,3 +75,104 @@
     height: 100%;
     object-fit: cover; 
   }
+
+
+
+  @media screen and (max-width:768px) {
+    .mainLoginDiv {
+      width: 100%;
+      background-color: #ffffff;
+      min-height: 14rem;
+      height: 89vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  
+  
+
+
+  .loginForm {
+    width: 95%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+}
+  
+.loginForm h2 {
+  margin-top: 5rem;
+  font-family: 'Poppins';
+  font-size: 15px;
+  position: relative;
+  right: 0rem;
+}
+  
+.loginForm form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  position: relative;
+  right: 0rem;
+}
+
+  
+  
+  .form label{
+      font-size: 12px;
+  }
+  
+  .loginForm input {
+    border: none;
+    height: 2rem;
+    width: 16rem;
+    border-radius: 2rem;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+  
+  
+.formBtn {
+  margin-top: 1rem;
+  border: none;
+  height: 2rem;
+  width: 16rem;
+  border-radius: 2rem;
+  background-color: #08b3ec;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 12px;
+}
+  
+  
+  .loginPageImage {
+      width: 60%;
+      height: 17rem;
+      position: relative;
+      top: 3rem;
+      right: 2rem;
+  }
+  
+  
+ 
+.loginPageImage {
+  width: 95%;
+  height: 17rem;
+  position: relative;
+  top: 3rem;
+  right: 0rem;
+}
+.loginPageImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  }

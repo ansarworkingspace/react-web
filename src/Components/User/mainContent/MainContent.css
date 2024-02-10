@@ -175,3 +175,204 @@
   .arrow svg{
     font-size: 3rem;
   }
+
+
+
+
+
+@media screen and (max-width:768px) {
+  
+  
+
+    .mainContentBody {
+        width: 100%;
+        height: 58rem;
+        display: flex;
+        flex-direction: column;
+    }
+  
+  
+    .left {
+        width: 100%;
+        height: 19rem;
+        
+    }
+    
+    .leftHeading {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .leftHeading h2 {
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    
+    .leftHeading h3 {
+        font-size: 9px;
+        font-family: 'Poppins';
+        margin-bottom: 0;
+    }
+    
+    .leftHeading h4
+    {
+        font-size: 14px;
+    }
+    
+    
+    .communityLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 3.7rem;
+        width: 17rem;
+    }
+    
+    .communityLogo img {
+        width: 13rem;
+    }
+    
+    .communityLogo button {
+        width: 11rem;
+        margin-top: 0rem;
+        border: 2px solid #b8b8b8;
+        height: 2rem;
+        font-family: 'Poppins';
+        border-radius: 3rem;
+        font-size: 11px;
+        color: rgb(50 172 146);
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+    
+    .right {
+        width: 24rem;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        padding-top: 2rem;
+    
+    }
+    
+    
+    .top {
+        width: 80%;
+        height: 3rem;
+        font-family: 'Poppins';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    
+    
+    .top h3 {
+        font-size: 13px;
+        color: rgb(84 184 163);
+        letter-spacing: 1px;
+    }
+    
+    
+    
+    .top h4 {
+        font-size: 16px;
+        color: #e6e6e6;
+    }
+    
+
+    .carosel {
+        width:100%;
+        height: 22rem;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        justify-content: center;
+      }
+    
+      .caroselBox {
+        display: none;
+        
+      }
+    
+      .caroselBox.active {
+        display: block;
+        width: 12rem;
+        height: 16rem;
+      }
+
+      .arrow {
+        background: none;
+        border: none;
+        cursor: pointer;
+        width: 2rem;
+        color: #279acd;
+    }
+    
+    .arrow svg {
+        font-size: 1.6rem;
+    }
+
+    .caroselImg img {
+        width: 11.9rem;
+        height: 10rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    
+    
+    .caroselBox h3 {
+        font-family: 'Poppins';
+        font-size: 15px;
+        margin-left: 2px;
+        margin-top: 2rem;
+        text-align: center;
+        color: #10858b;
+    }
+
+
+
+    .bottom {
+        width: 84%;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+    
+    
+    .btnUnlock {
+        width: 17rem;
+        font-family: 'Poppins';
+        border: none;
+        height: 2.7rem;
+        border-radius: 1rem;
+        background: linear-gradient(to right, rgb(50 172 146), #9ebcc0, rgb(50, 207, 173));
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    .btnDetails {
+        width: 13rem;
+        font-size: 12px;
+        font-family: 'Poppins';
+        border: none;
+        height: 2.7rem;
+        border-radius: 1rem;
+        color: white;
+        font-weight: 600;
+        background: linear-gradient(to right, rgb(50 172 146), #9ebcc0, rgb(50, 207, 173));
+    }
+    
+
+
+}

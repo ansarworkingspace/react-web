@@ -91,6 +91,10 @@
     text-align: center;
     font-size: 0.8rem;
 }
+.twoHorizontalInput label{
+    font-size: 14px;
+    color: #767272;
+}
 
 .unlockForm button{
     width: 29rem;
@@ -109,4 +113,129 @@
         bottom: 1rem;
         left: 10px;
         color: gray;
+}
+
+.codeHead{
+    font-size: 14px;
+    color: #767272;
+}
+
+
+@media screen and (max-width:768px) {
+    .unLockDiv {
+        width: 100%;
+        height: 44rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .unlockLeft {
+        width: 100%;
+        height: 43rem;
+        order: 2;
+    }
+    
+    .unlockForm {
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        position: relative;
+        left: 1rem;
+        top: 2rem;
+        font-family: 'Poppins';
+        align-items: center;
+    }
+    .unlockForm h2 {
+        font-size: 2rem;
+        color: #40baf1;
+        margin-left: 1rem;
+    }
+    
+    .unlockForm label{
+        font-size: 11px;
+    }
+    
+    
+    .twoHorizontalInput {
+        display: flex;
+        gap: 1rem;
+        position: relative;
+        bottom: 0.7rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+.twoHorizontalInput input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+
+
+.twoVerticalInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    bottom: 2rem;
+    align-items: center;
+}
+
+.twoVerticalInputs input {
+    width: 15rem;
+    font-size: 10px;
+}
+
+
+
+.unlockForm button {
+    width: 20rem;
+    border: none;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: #40baf1;
+    color: white;
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 2rem;
+    font-size: 13px;
+}
+
+
+.unlockForm h5 {
+    font-size: 8px;
+    position: relative;
+    bottom: 3rem;
+    left: 10px;
+    color: gray;
+}
+
+.unloclRight {
+    width: 100%;
+    height: 17rem;
+}
+
+
+.unloclRight img {
+    width: 24rem;
+    position: relative;
+    top: 2rem;
+}
+
+.codeHead{
+    font-size: 9px;
+    margin-bottom: 0;
+}
+.twoHorizontalInput label{
+    font-size: 9px;
+    color: #767272;
+}
+
 }
